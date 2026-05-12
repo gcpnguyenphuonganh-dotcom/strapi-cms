@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "traffics",
+  "info": {
+    "singularName": "traffic",
+    "pluralName": "traffics",
+    "displayName": "Traffic"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ip": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "datetime"
+    }
+  }
+}
