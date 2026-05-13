@@ -7,7 +7,11 @@ const config: Core.Config.Middlewares = [
   {
     name: 'strapi::cors',
     config: {
-      origin: ['http://localhost:3000'],
+      origin: [
+        'http://localhost:3000',
+        'https://*.vercel.app',
+      
+      ],
       methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
       headers: ['Content-Type', 'Authorization'],
     },
