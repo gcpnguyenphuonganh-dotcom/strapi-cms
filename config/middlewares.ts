@@ -9,6 +9,7 @@ const config: Core.Config.Middlewares = [
     config: {
       origin: [
         'http://localhost:3000',
+        'https://company-web-crqd.vercel.app',
         'https://*.vercel.app',
       
       ],
