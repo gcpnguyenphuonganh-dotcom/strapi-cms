@@ -47,6 +47,8 @@ const config = ({ env }: Core.Config.Shared.ConfigParams): Core.Config.Database 
   },
   pool: { min: env.int('DATABASE_POOL_MIN', 2), max: env.int('DATABASE_POOL_MAX', 10) },
 },
+
+
     sqlite: {
       connection: {
         filename: path.join(__dirname, '..', '..', env('DATABASE_FILENAME', '.tmp/data.db')),
