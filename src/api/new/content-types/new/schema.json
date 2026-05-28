@@ -23,14 +23,6 @@
         }
       }
     },
-    "category": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "image": {
       "type": "media",
       "pluginOptions": {
@@ -69,6 +61,27 @@
           "localized": true
         }
       }
+    },
+    "highlight": {
+      "type": "boolean",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "category": {
+      "type": "enumeration",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "enum": [
+        "Company events",
+        "Awards",
+        "Innovations & improvement"
+      ]
     }
   }
 }

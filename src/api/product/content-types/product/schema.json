@@ -15,8 +15,24 @@
     }
   },
   "attributes": {
+    "slug": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
     "name": {
       "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "highlight": {
+      "type": "boolean",
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -76,6 +92,19 @@
         "audios"
       ]
     },
+    "datasheet": {
+      "type": "media",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "files"
+      ]
+    },
     "applications": {
       "type": "text",
       "pluginOptions": {
@@ -93,14 +122,6 @@
       }
     },
     "tagline": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "slug": {
       "type": "string",
       "pluginOptions": {
         "i18n": {
@@ -139,19 +160,6 @@
           "localized": true
         }
       }
-    },
-    "datasheet": {
-      "type": "media",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "files"
-      ]
     }
   }
 }
