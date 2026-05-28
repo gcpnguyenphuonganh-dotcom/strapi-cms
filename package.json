@@ -43,5 +43,8 @@
   "strapi": {
     "uuid": "b4d29474-47bf-46aa-a061-8e112c1f3634",
     "installId": "727658bf0a965a3b413a3c2f735161c6ba032b293a8aca130e8bf4fb703ac6ad"
+  },
+"overrides": {
+    "@strapi/admin": "5.41.1"
   }
 }
