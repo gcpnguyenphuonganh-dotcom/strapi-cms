@@ -9,7 +9,7 @@ const config: Core.Config.Middlewares = [
     config: {
       origin: [
         'http://localhost:3000',
-        'https://company-web-crqd.vercel.app',
+        'https://company-website-sepia-alpha.vercel.app',
         'http://192.168.220.57:3000',
         'https://*.vercel.app',
       
