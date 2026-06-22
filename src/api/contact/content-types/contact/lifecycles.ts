@@ -48,7 +48,7 @@ export default {
   html: `
     <div style="max-width:560px;margin:0 auto;padding:48px 24px;font-family:'Segoe UI',Arial,sans-serif;color:#1a1a1a;font-size:15px;line-height:1.8;">
 
-      <p>Kính gửi, phòng sale</p>
+      <p>Kính gửi Phòng Sale,</p>
 
       <p>Hệ thống vừa nhận được một yêu cầu liên hệ mới với thông tin như sau:</p>
 

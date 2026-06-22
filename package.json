@@ -45,6 +45,8 @@
     "installId": "727658bf0a965a3b413a3c2f735161c6ba032b293a8aca130e8bf4fb703ac6ad"
   },
 "overrides": {
-    "@strapi/admin": "5.41.1"
-  }
+  "@strapi/admin": "5.41.1",
+  "@strapi/content-manager": "5.41.1",
+  "@strapi/content-type-builder": "5.41.1"
+}
 }
